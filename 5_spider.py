@@ -1,12 +1,15 @@
 import turtle
 
+turtle.speed(100)
 def spider():
     turtle.shape('turtle')
-    for i in range(12):
+    n=50
+    for i in range(n):
+       turtle.left(360/n)
        turtle.forward(90)
        turtle.stamp()
        turtle.backward(90)
-       turtle.right(30)
+
 
     pass
 
